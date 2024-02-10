@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrow Progress Bar</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="arrow-steps">
+          <div class="step st-1 current"><a href="#">Step-1</a></div>
+          <div class="step st-2"><a href="#">Step-2</a></div>
+          <div class="step st-3"><a href="#">Step-3</a></div>
+        </div>
+      </div>
+
+      <form class="form step-1">
+        <h2 class="heading">CREATE ACCOUNT</h2>
+
+        <input placeholder="Enter Email" />
+        <br />
+        <input placeholder="Enter Password" /><br />
+        <input placeholder="Enter Password Again" />
+        <br />
+        <div class="btnContainer">
+          <button type="button" class="submitBtn btn-1">Next</button>
+        </div>
+      </form>
+      <form class="form step-2">
+        <h2 class="heading">SOCIAL LINKS</h2>
+
+        <input placeholder="Mediam" />
+        <br />
+        <input placeholder="Github" /><br />
+        <input placeholder="Linkdin" />
+        <br />
+        <div class="btnContainer">
+          <button type="button" class="prevBtn prevBtn-1">Prev.</button>
+          <button type="button" class="submitBtn btn-2">Next</button>
+        </div>
+      </form>
+      <form class="form step-3">
+        <h2 class="heading">PERSONAL INFORMATION</h2>
+
+        <input placeholder="First Name" />
+        <br />
+        <input placeholder="Last Name" /><br />
+        <input placeholder="Mobile Number" />
+        <br />
+        <div class="btnContainer">
+          <button type="button" class="prevBtn prevBtn-2">Prev.</button>
+          <button type="button" class="submitBtn btn-3">Next</button>
+        </div>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
